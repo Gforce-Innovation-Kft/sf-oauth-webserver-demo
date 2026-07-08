@@ -65,3 +65,9 @@ Required in `.env` (see `.env.example`):
 - `docker-compose.yml` -- single service, reads `.env`, port 3000
 - `terraform/` -- AWS VPC, ALB, ECS Fargate cluster, Secrets Manager integration
 - `deploy.sh` -- orchestrates Docker build, ECR push, and Terraform apply
+
+<!-- skills-tooling -->
+## Skills & AI tooling
+
+**Global tooling available in every session:** lean-ctx (prefer `ctx_*` MCP tools for reads/search/shell — token-compressed), superpowers process skills, and graphify (no graph built for this repo).
+<!-- /skills-tooling -->
