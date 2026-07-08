@@ -1,0 +1,101 @@
+{
+    "posts": [
+        {
+            "id": "devops-platform",
+            "title": "DevOps Orchestration Platform",
+            "slug": "blog-devops-platform.html",
+            "excerpt": "Building a React TypeScript app for GitHub Actions and cloud resource management with modern frontend patterns.",
+            "date": "2026-01-15",
+            "readTime": "12 min read",
+            "tags": [
+                "React",
+                "TypeScript",
+                "GitHub Actions",
+                "DevOps"
+            ],
+            "featured": true,
+            "image": "assets/img/blog-devops-thumb.jpg"
+        },
+        {
+            "id": "oauth-ecs",
+            "title": "OAuth + Docker + Terraform: Production-Ready Architecture",
+            "slug": "blog-oauth-ecs.html",
+            "excerpt": "Implementing enterprise-grade OAuth authentication on AWS ECS with Docker containers and Terraform infrastructure as code.",
+            "date": "2026-01-20",
+            "readTime": "15 min read",
+            "tags": [
+                "AWS ECS",
+                "OAuth",
+                "Docker",
+                "Terraform",
+                "Security"
+            ],
+            "featured": true,
+            "image": "assets/img/blog-oauth-thumb.jpg"
+        },
+        {
+            "id": "weather-app",
+            "title": "Enterprise Salesforce Apps with fflib",
+            "slug": "blog-weather-app.html",
+            "excerpt": "Deep-dive into building Salesforce applications using enterprise patterns, domain logic, and the fflib framework.",
+            "date": "2026-01-10",
+            "readTime": "10 min read",
+            "tags": [
+                "Salesforce",
+                "fflib",
+                "Enterprise Patterns",
+                "Apex"
+            ],
+            "featured": true,
+            "image": "assets/img/blog-weather-thumb.jpg"
+        },
+        {
+            "id": "salesforce-dx-pipeline",
+            "title": "Salesforce DX Pipeline",
+            "slug": "#",
+            "excerpt": "Enterprise-grade Salesforce CI/CD pipeline with automated testing, quality gates, and release governance.",
+            "date": "Coming Soon",
+            "readTime": "12 min read",
+            "tags": [
+                "Salesforce DX",
+                "CI/CD",
+                "GitHub Actions",
+                "Release Management"
+            ],
+            "featured": false,
+            "comingSoon": true
+        },
+        {
+            "id": "cloud-native",
+            "title": "Cloud-Native Architecture",
+            "slug": "#",
+            "excerpt": "AWS serverless architecture with Lambda, API Gateway, and event-driven patterns for scalable integrations.",
+            "date": "Coming Soon",
+            "readTime": "14 min read",
+            "tags": [
+                "AWS Lambda",
+                "API Gateway",
+                "Event-Driven",
+                "Serverless"
+            ],
+            "featured": false,
+            "comingSoon": true
+        },
+        {
+            "id": "platform-automation",
+            "title": "Platform Automation",
+            "slug": "#",
+            "excerpt": "Automated platform provisioning, configuration management, and infrastructure as code with Terraform and Docker.",
+            "date": "Coming Soon",
+            "readTime": "11 min read",
+            "tags": [
+                "Terraform",
+                "Docker",
+                "IaC",
+                "Automation"
+            ],
+            "featured": false,
+            "comingSoon": true
+        }
+    ]
+}

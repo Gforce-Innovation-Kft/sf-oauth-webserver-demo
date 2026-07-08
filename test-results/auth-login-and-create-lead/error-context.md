@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e7]:
+        - img [ref=e8]
+        - generic [ref=e9]: Salesforce
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - generic [ref=e13]: "Error: Please check your username and password. If you still can't log in, contact your Salesforce administrator."
+          - generic [ref=e14]:
+            - text: Username
+            - textbox "Username" [active] [ref=e16]
+          - text: Password
+          - textbox "Password" [ref=e17]
+          - button "Log In" [ref=e18] [cursor=pointer]
+          - generic [ref=e19]:
+            - checkbox "Remember me" [ref=e20]
+            - generic [ref=e21]: Remember me
+        - generic [ref=e22]:
+          - link "Forgot Your Password?" [ref=e23] [cursor=pointer]:
+            - /url: /secur/forgotpassword.jsp?locale=us&lqs=startURL%3D%252Fsetup%252Fsecur%252FRemoteAccessAuthorizationPage.apexp%253Fsource%253DCAAAAZwUmlU-MDAwMDAwMDAwMDAwMDAwAAABAoqukE7PPrNSEbdOWgu1a49e-ichDUd1T4800vd3llvLvApacJASAYrwKTp7G0zHpAkhZzkIdYKQyFvdnqMD17QOsTfixznruyrWFXUno6hwGHeJrXbAoLId7j8-XtC4TlqCkmEeO6LC9OIHLaaAFPiXtmIV_IFHhUEvTJQEaLPZyZ6uJ9d0a7a6_rD1Y-O0VQms8CA5hweIXHaaoX9yOrvJhEh7ornDQaQESWD_R6zS4FB6cFGTghAHFN6pMTYlNy1F0ru4BxJ0o2MscOSbgeoF7vyKX3PdxFhKZGmeYO_LeV0U9sISLoTeA53F59oHOm8hj302bUoJyHpEdDFl1Oa8UZcqlty4RKhvkbRKHWyJThwg5lG4wau6Ea6qsanhTeS93k9yRnmir0vEHcHMHWkCK9dwN85K6JYgxccPPX8DciPRXxSpBtfHYiP2y598BTXa5MH9uhsKmqm3-tXOga5RXB_konkL6lvusHr0L9JAtShH9E3W7FahOL5nfjN6y9r73EW_yLXseulMKjGlyV9R6ERWFPeF6Umki-vWu5ayhfCbNzBdtaVXH5kdpdJQ9Z8MEDfpLsbC2P3VwkMCLevAXwQjbdcEkInHa9t-z8SCdQombCoFM8ACPmdQauDHuo1qf0lAQ9jjsujsmDeEOmTus5sLm0dgrFtiZl_vV2rssCqOeBgqn3vjCfMT5BK_g_jhv6-hjIevIw8jSPSzUyn6fmVqrIqQuCWPZEuwnNy0_XwwNJFHBonCYbtxG4VxL65leavX1jCLhtF79ydDNeQ%25253D%26ec%3D302
+          - link "Use Custom Domain" [ref=e24] [cursor=pointer]:
+            - /url: javascript:void(0);
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: Not a customer?
+        - link "Try for Free" [ref=e27] [cursor=pointer]:
+          - /url: https://www.salesforce.com/form/trial/freetrial.jsp
+    - generic [ref=e28]:
+      - text: © 2026 Salesforce, Inc. All rights reserved. |
+      - link "Privacy" [ref=e29] [cursor=pointer]:
+        - /url: https://www.salesforce.com/us/company/privacy
+  - iframe [ref=e31]:
+    - main [ref=f9e2]:
+      - article [ref=f9e6]:
+        - generic [ref=f9e8]:
+          - generic [ref=f9e9]:
+            - heading "Get Salesforce for free. No credit card required, no software to install." [level=1] [ref=f9e10]
+            - generic [ref=f9e11]:
+              - paragraph [ref=f9e12]: "With your free CRM, you get:"
+              - list [ref=f9e13]:
+                - listitem [ref=f9e14]: Up to 2 users with no time limits
+                - listitem [ref=f9e15]: Quick and easy set-up with guided onboarding
+                - listitem [ref=f9e16]: Sales, service, and email marketing together in one place
+                - listitem [ref=f9e17]: A free Slack workspace for collaborating with partners
+          - 'link "Get free CRM: Get Salesforce for free. No credit card required, no software to install." [ref=f9e20] [cursor=pointer]':
+            - /url: https://www.salesforce.com/form/signup/free-crm/?d=pb
+            - text: Get free CRM
+  - generic: Login
+  - iframe [ref=e32]:
+    
+```
